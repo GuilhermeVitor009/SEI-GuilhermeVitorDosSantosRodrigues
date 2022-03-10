@@ -1,0 +1,4 @@
+1) Para um pacote TCP o limite de bytes a serem enviados é de 64 kbytes, e para o UDP são de 65.507 bytes aproximadamente
+2) Em relação ao fluxo de dados, as diferenças de implementação entre eles é que o TCP realiza controle de fluxo,não
+enviando mais pacotes que o destinatário consegue receber, enquanto o UDP não controla esse fluxo, podendo até perder
+dados.
