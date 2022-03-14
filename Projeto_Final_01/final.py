@@ -1,6 +1,4 @@
-import datetime
 import math
-import time
 import numpy as np
 import game
 import pygame
