@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 @import url('https://fonts.googleapis.com/css2?family=Hubballi&family=Lemonada&display=swap');
 
 *{
@@ -77,4 +78,35 @@ input[type=button]:hover{
 
 input[type=button]:active{
     transform: scale(0.1);
+=======
+@import url('https://fonts.googleapis.com/css2?family=Hubballi&family=Lemonada&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    outline: none;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    font-size: 22px;
+
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+input[type=button]{
+    width: 100px;
+    height: 50px;
+    margin: 2px;
+
+}
+
+div#calculadora div{
+    display: flex;
+    
+>>>>>>> a6ba9e082a0a8363068105efd56a2779c8b20572
 }
