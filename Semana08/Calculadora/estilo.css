@@ -9,22 +9,72 @@
     font-size: 22px;
 
 }
-
+div#calculadora{
+    box-shadow: 0 0 20px black;
+}
 body{
+    background-color: yellow;
     display: flex;
     justify-content: center;
     align-items: center;
     height: 100vh;
 }
-
+input[type = text]{
+    width: calc(100% - 4px);
+    height: 40px;
+}
+input{
+    margin: 2px;
+    border: none;
+    border-radius: 3px;
+}
 input[type=button]{
     width: 100px;
     height: 50px;
-    margin: 2px;
+    transition: ease 0.5s;
+    cursor: pointer;
 
 }
 
 div#calculadora div{
     display: flex;
     
+}
+
+div#calculadora div input:nth-child(4){
+    background-color: rgb(118, 124, 134);
+}
+div#quartalinha input:nth-child(1){
+    background: #f11a1a;
+    border-bottom-left-radius: 35px;
+
+}
+
+div#quartalinha input:nth-child(1), div#calculadora{
+    border-bottom-left-radius: 35px;
+
+}
+
+div#quartalinha input:nth-child(4), div#calculadora{
+    border-bottom-right-radius: 35px;
+
+}
+
+div#quartalinha input:nth-child(3){
+    background: #1a4cfe;
+
+}
+
+div#quartalinha input:nth-child(4){
+    border-bottom-right-radius: 35px;
+
+}
+
+input[type=button]:hover{
+    filter:brightness(50%)
+
+}
+
+input[type=button]:active{
+    transform: scale(0.1);
 }
